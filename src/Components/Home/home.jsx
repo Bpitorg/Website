@@ -53,7 +53,7 @@ export function Home() {
       </div>
 
       <footer className='text-white position-fixed fixed-bottom p-3'>
-        &copy; BPIT 2021
+        &copy; BPIT 2022
       </footer>
     </div>
   )
