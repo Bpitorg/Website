@@ -1,0 +1,68 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  /* filter: blur(5px);
+  -webkit-filter: blur(5px); */
+}
+
+.button_outline {
+    padding: 10px 30px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 20px;
+    text-transform: uppercase;
+    width: 219px;
+    height: 48px;
+}
+
+.button_outline:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.coming-soon {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 64px;
+}
+
+.heading-name {
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.heading-desc {
+  font-size: 18px;
+  font-family: 'Source Code Pro', monospace;  
+}
+
+.progress_bar_container {
+  width: 400px;
+  background-color: white;
+  border-radius: 5px;
+  height: 10px;
+}
+
+.progress_bar {
+  width: 30px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #C26B6B;
+  height: 10px;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+}
